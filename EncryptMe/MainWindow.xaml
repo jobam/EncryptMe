@@ -1,0 +1,20 @@
+﻿<Window x:Class="EncryptMe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EncryptMe"
+        mc:Ignorable="d"
+        Title="EncryptMe" Height="183.898" Width="415.996">
+    <Grid>
+        <Label x:Name="lblSource" Content="Fichier Source : " HorizontalAlignment="Left" Margin="5,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbSource" HorizontalAlignment="Left" Height="23" Margin="95,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="231"/>
+        <Button x:Name="btnPath" Content="..." HorizontalAlignment="Left" Margin="344,13,0,0" VerticalAlignment="Top" Width="41" Click="btnPath_Click"/>
+        <Label x:Name="lblPassword" Content="Mot de passe :" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="pbPassword" HorizontalAlignment="Left" Margin="95,59,0,0" VerticalAlignment="Top" Width="231" Height="21"/>
+        <Button x:Name="btnEncrypt" Content="Crypter" HorizontalAlignment="Left" Margin="95,112,0,0" VerticalAlignment="Top" Width="75" Click="btnEncrypt_Click"/>
+        <Button x:Name="btnDecrypt" Content="Décrypter" HorizontalAlignment="Left" Margin="251,112,0,0" VerticalAlignment="Top" Width="75" Click="btnDecrypt_Click"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="95,80,0,0" VerticalAlignment="Top" Foreground="DarkGreen" FontWeight="Bold"/>
+
+    </Grid>
+</Window>
