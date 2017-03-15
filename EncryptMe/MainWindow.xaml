@@ -12,8 +12,8 @@
         <Button x:Name="btnPath" Content="..." HorizontalAlignment="Left" Margin="344,13,0,0" VerticalAlignment="Top" Width="41" Click="btnPath_Click"/>
         <Label x:Name="lblPassword" Content="Mot de passe :" HorizontalAlignment="Left" Margin="10,54,0,0" VerticalAlignment="Top"/>
         <PasswordBox x:Name="pbPassword" HorizontalAlignment="Left" Margin="95,59,0,0" VerticalAlignment="Top" Width="231" Height="21"/>
-        <Button x:Name="btnEncrypt" Content="Crypter" HorizontalAlignment="Left" Margin="95,112,0,0" VerticalAlignment="Top" Width="75" Click="btnEncrypt_Click"/>
-        <Button x:Name="btnDecrypt" Content="Décrypter" HorizontalAlignment="Left" Margin="251,112,0,0" VerticalAlignment="Top" Width="75" Click="btnDecrypt_Click"/>
+        <Button x:Name="btnEncrypt" Content="Chiffrer" HorizontalAlignment="Left" Margin="95,112,0,0" VerticalAlignment="Top" Width="75" Click="btnEncrypt_Click"/>
+        <Button x:Name="btnDecrypt" Content="Déchiffrer" HorizontalAlignment="Left" Margin="251,112,0,0" VerticalAlignment="Top" Width="75" Click="btnDecrypt_Click"/>
         <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="95,80,0,0" VerticalAlignment="Top" Foreground="DarkGreen" FontWeight="Bold"/>
 
     </Grid>
